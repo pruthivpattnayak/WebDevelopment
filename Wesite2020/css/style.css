@@ -2,15 +2,24 @@
 
 a{text-decoration: none;}
 
+a:hover{text-decoration: none;}
+
 li{list-style: none;}
 
 p{
     font-size: 0.9rem;
     line-height: 1.6;
     font-weight: 400;
-    color: whitesmoke;
+    color: grey;
 }
-a:hover{text-decoration: none;}
+
+.extra-div h2{
+    font-size: 0.9rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
 
 .header{
     width: 100%;
@@ -95,3 +104,27 @@ a:hover{text-decoration: none;}
     font-size: 1.3rem;
     color: white;
 }
+
+
+/* ************ three extra divs css starts**************** */
+
+.header-extradiv{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.extra-div{
+    background: white;
+    border: none;
+    padding: 50px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.extra-div:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transform: translateY(-20px);
+}
+/* ************ three extra divs css starts**************** */
